@@ -9,7 +9,7 @@ print(listaNumerica)
 #Exercitando List Comprehension
 listaDeNumerosPares = [num for num in listaNumerica if (num % 2 == 0) == True]
 listaDeNumerosImpares = [num for num in listaNumerica if (num % 2 == 0) == False]
-#Análise da composição da lista
+#Análise da composição da lista principal
 print(f"{len(listaNumerica)} números no total na lista \'listaNumerica\'")
 print(f"{len(listaDeNumerosPares)} números pares na lista \'listaNumerica\'")
 print(f"{len(listaDeNumerosImpares)} números ímpares na lista \'listaNumerica\'")
